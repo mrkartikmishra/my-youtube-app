@@ -3,4 +3,35 @@
     height: 300px;
     background-color: #ffffff;
     margin: 10px;
+    cursor: pointer;
+}
+
+.videoCard__thumbnails__image {
+    width: 100%;
+}
+
+.videoCard_details {
+    display: flex;
+    padding: 10px;
+
+}
+
+.videoCard_details_left__avatar {
+    font-size: 40px!important;
+    margin-right: 8px;
+}
+
+.videoCard_details_title {
+    font-size: 0.92rem;
+    max-height: 4rem;
+    margin-bottom: 10px;
+}
+
+.videoCard_details_channelTitle {
+    margin-bottom: 5px;
+    color: rgb(100, 99, 99)!important;
+}
+
+.videoCard_details_views {
+    color: rgb(100, 99, 99)!important;
 }

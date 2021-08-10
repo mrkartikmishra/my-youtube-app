@@ -1,6 +1,6 @@
 .videoCategories {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     overflow-x: scroll;
     height: 50px;
     background-color: #ffffff;

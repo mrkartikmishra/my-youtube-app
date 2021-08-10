@@ -4,23 +4,15 @@ import './MainContent.css';
 import VideoCard from './VideoCard.js';
 import VideoCategories from './VideoCategories';
 
-const MainContent = () => {
+const MainContent = ({ videos }) => {
+
+    console.log(videos);
     return (
         <div className="mainContent">
-            <VideoCategories />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
-            <VideoCard />
+            {/* <VideoCategories /> */}
+            {videos.map((video) => {
+               return <VideoCard key={video.id.videoId} video={video} />
+            })}
         </div>
     );
 }

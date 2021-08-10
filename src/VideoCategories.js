@@ -7,6 +7,36 @@ const VideoCategories = () => {
     return(
         <div className="videoCategories">
             <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
+            <CategoriesItem />
         </div>
     );
 }
