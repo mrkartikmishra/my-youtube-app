@@ -45,6 +45,10 @@ const Sidebar = () => {
             <SidebarMenuItem title="Report history" Icon={FlagIcon}  />
             <SidebarMenuItem title="Help" Icon={HelpIcon}  />
             <SidebarMenuItem title="Send feedback" Icon={FeedbackIcon}  />
+            <br />
+            <br />
+            <p className="sidebar__copyRight"> &copy; 2021 Kartik Mishra</p>
+            <p className="sidebar__copyRight"> (It's just a YouTube mirror implementation) </p>
         </div>
     );
 }
