@@ -1,0 +1,83 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #ffffff;
+    border-bottom: 0.1px solid #ccc;
+}
+
+.navbar__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__left__menuIcon {
+    color: rgb(73, 72, 72);
+    cursor: pointer;
+}
+
+.navbar__left__menuIcon:hover{
+    color: red;
+}
+
+.navbar__left__logo {
+    object-fit: contain;
+    height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar__center {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 0.5px solid rgb(97, 95, 95);
+    border-radius: 0.2px;
+}
+
+.navbar__center__input {
+    border: none;
+    flex: 1;
+    padding: 5px;
+    height: 32px;
+}
+
+.navbar__center__input:active {
+    outline: none;
+    border: none;
+}
+
+.navbar__center__searchBtn {
+    width: 50px!important;
+    background-color: #ebe8e8;
+    border-left: 1px solid lightgray;
+    cursor: pointer;
+    height: 32px!important;
+    color: rgb(73, 72, 72)!important;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar__right__icon {
+    margin-right: 10px;
+    color: rgb(73, 72, 72);
+    cursor: pointer;
+}
+
+.navbar__right__icon:hover {
+    color: red;
+}
+
+.navbar__right__icon__avatar {
+    font-size: 40px!important;
+}

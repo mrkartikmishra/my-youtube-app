@@ -1,0 +1,6 @@
+.mainContent {
+    flex: 0.8;
+    background-color: rgb(248, 246, 246);
+    display: flex;
+    flex-wrap: wrap;;
+}

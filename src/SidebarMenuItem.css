@@ -1,0 +1,34 @@
+.SidebarMenuItem {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.SidebarMenuItem:hover {
+    background-color: rgb(236, 234, 234);
+}
+
+.SidebarMenuItem:hover {
+    background-color: rgb(236, 234, 234);
+    font-weight: 800;
+}
+
+.SidebarMenuItem:hover >  .SidebarMenuItem__icon {
+    background-color: rgb(236, 234, 234);
+    color: red!important;
+    font-weight: 800;
+}
+
+.SidebarMenuItem__title {
+    margin-left: 30px;
+    color: rgb(94, 93, 93);
+    font-size: 0.99rem;
+    font-weight: 200!important;
+}
+
+.SidebarMenuItem__icon {
+    color: rgb(94, 93, 93);
+}

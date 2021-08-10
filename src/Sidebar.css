@@ -1,0 +1,14 @@
+.sidebar {
+    flex: 0.2;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.sidebar:first-child {
+    margin-top: 15px;
+}
+
+.sidebar__divider {
+    border: 0.1px solid rgba(0, 0, 0, 0.1);;
+}
